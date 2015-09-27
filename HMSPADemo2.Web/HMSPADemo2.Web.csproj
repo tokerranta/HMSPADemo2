@@ -111,8 +111,11 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\orders\entities\order.ts" />
     <TypeScriptCompile Include="app\orders\orders.module.ts" />
+    <TypeScriptCompile Include="app\orders\orders.orderservice.ts" />
     <TypeScriptCompile Include="app\orders\orders.routing.ts" />
+    <TypeScriptCompile Include="app\orders\orders.orderListController.ts" />
     <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="typings\tsd.d.ts" />
