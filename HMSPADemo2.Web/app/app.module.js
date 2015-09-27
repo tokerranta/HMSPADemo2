@@ -1,4 +1,5 @@
 (function () {
     'use strict';
-    angular.module('app', []);
+    angular.module('app', ['app.orders']);
 })();
+//# sourceMappingURL=app.module.js.map

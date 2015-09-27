@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>HM-SPA-DEMO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <!-- bower:css-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+</head>
+<body>
+    <div class="container-fluid">
+        <ui-view></ui-view>
+    </div>
+
+
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <script src="app/app.module.js"></script>
+    <script src="app/orders/orders.module.js"></script>
+    <script src="app/orders/orders.routing.js"></script>
+    <script src="app/orders/entities/order.js"></script>
+    <script src="app/orders/orders.orderListController.js"></script>
+    <script src="app/orders/orders.orderservice.js"></script>
+</body>
+</html>

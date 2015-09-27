@@ -1,0 +1,18 @@
+﻿<table>
+    <thead>
+        <tr>
+            <th>
+                Order Id
+            </th>
+            <th>
+                Description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="order in vm.orders">
+            <td ng-bind="order.id"></td>
+            <td ng-bind="order.description"></td>
+        </tr>
+    </tbody>
+</table>

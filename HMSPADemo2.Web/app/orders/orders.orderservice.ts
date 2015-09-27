@@ -2,14 +2,14 @@
     'use strict';
     
     export interface IOrderService {
-        getAll(): ng.IPromise<IOrder[]>;
+        getAll(): angular.IPromise<IOrder[]>;
     }
 
     export class OrderService implements IOrderService {
         static $inject = ['$http', '$q'];
-        constructor(private $http: ng.IHttpService, private $q: ng.IQService) { }
+        constructor(private $http: angular.IHttpService, private $q: angular.IQService) { }
 
-        getAll(): ng.IPromise<IOrder[]> {
+        getAll(): angular.IPromise<IOrder[]> {
             var deferred = this.$q.defer();
 
             this.$http.get('/api/orders').then(function (response) {

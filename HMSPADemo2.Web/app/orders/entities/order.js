@@ -11,3 +11,4 @@ var app;
         orders.Order = Order;
     })(orders = app.orders || (app.orders = {}));
 })(app || (app = {}));
+//# sourceMappingURL=order.js.map

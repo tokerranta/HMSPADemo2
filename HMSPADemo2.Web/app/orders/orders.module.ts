@@ -1,6 +1,6 @@
 ﻿((): void => {
     'use strict';
     
-    angular.module('app.orders', ['url.router']);
+    angular.module('app.orders', ['ui.router']);
 
 })();

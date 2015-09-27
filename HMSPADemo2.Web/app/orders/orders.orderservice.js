@@ -26,3 +26,4 @@ var app;
             .service('OrderService', OrderService);
     })(orders = app.orders || (app.orders = {}));
 })(app || (app = {}));
+//# sourceMappingURL=orders.orderservice.js.map
