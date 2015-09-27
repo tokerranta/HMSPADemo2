@@ -4,6 +4,8 @@
     angular.module('app.orderdetails')
         .config(configRoutes);
 
+    configRoutes.$inject = ['$stateProvider', '$urlRouterProvider'];
+
     function configRoutes($stateProvider: ng.ui.IStateProvider, $urlRouterProvider: ng.ui.IUrlRouterProvider): void {
         $urlRouterProvider.otherwise('/');
 
