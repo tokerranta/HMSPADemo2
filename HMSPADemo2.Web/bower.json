@@ -1,0 +1,16 @@
+{
+  "name": "HMSPADemo2.Web",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tokerranta/HMSPADemo2",
+  "authors": [
+    "tokerranta <rantanikunen.markus@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
