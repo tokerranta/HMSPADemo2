@@ -15,5 +15,15 @@ namespace HMSPADemo2.Infrastructure.Persistence.Repositories
                 new Order { Id = 4, Description = "Test4" }
             };
         }
+
+        public OrderDetails GetById(int id)
+        {
+            return new OrderDetails
+            {
+                Id = 1,
+                Description = "Test1",
+                TotalCost = 200M
+            };
+        }
     }
 }

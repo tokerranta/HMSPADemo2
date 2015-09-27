@@ -23,5 +23,16 @@ namespace HMSPADemo2.Application.Orders
                 Description = o.Description
             });
         }
+
+        public OrderDetailsModel GetById(int id)
+        {
+            var orderDetails = _orderRepository.GetById(id);
+            return new OrderDetailsModel
+            {
+                Id = orderDetails.Id,
+                Description = orderDetails.Description,
+                TotalCost = orderDetails.TotalCost
+            };
+        }
     }
 }

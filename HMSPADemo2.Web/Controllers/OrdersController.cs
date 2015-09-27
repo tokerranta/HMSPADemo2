@@ -24,5 +24,12 @@ namespace HMSPADemo2.Web.Controllers
             var orders = _orderService.GetAll();
             return Ok(orders);
         }
+
+        [Route("orders/{id}")]
+        public IHttpActionResult Get(int id)
+        {
+            var orderDetails = _orderService.GetById(id);
+            return Ok(orderDetails);
+        }
     }
 }

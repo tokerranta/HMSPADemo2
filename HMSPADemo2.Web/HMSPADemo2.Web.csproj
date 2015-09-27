@@ -107,6 +107,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\orderdetails\orderdetails.html" />
     <Content Include="app\orders\orderlist.html" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.js" />
     <Content Include="bower_components\angular-ui-router\release\angular-ui-router.min.js" />
@@ -2195,6 +2196,11 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app\app.module.ts" />
+    <TypeScriptCompile Include="app\orderdetails\entities\OrderDetails.ts" />
+    <TypeScriptCompile Include="app\orderdetails\orderdetails.module.ts" />
+    <TypeScriptCompile Include="app\orderdetails\orderdetails.orderdetailscontroller.ts" />
+    <TypeScriptCompile Include="app\orderdetails\orderdetails.orderdetailsservice.ts" />
+    <TypeScriptCompile Include="app\orderdetails\orderdetails.routing.ts" />
     <TypeScriptCompile Include="app\orders\entities\order.ts" />
     <TypeScriptCompile Include="app\orders\orders.module.ts" />
     <TypeScriptCompile Include="app\orders\orders.orderservice.ts" />

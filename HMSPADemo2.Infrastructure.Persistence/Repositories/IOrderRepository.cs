@@ -5,6 +5,7 @@ namespace HMSPADemo2.Infrastructure.Persistence.Repositories
 {
     public interface IOrderRepository
     {
-        IEnumerable<Order> GetAll();  
+        IEnumerable<Order> GetAll();
+        OrderDetails GetById(int id);
     }
 }

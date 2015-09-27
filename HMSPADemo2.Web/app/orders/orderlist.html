@@ -11,7 +11,7 @@
     </thead>
     <tbody>
         <tr ng-repeat="order in vm.orders">
-            <td ng-bind="order.id"></td>
+            <td><a ui-sref="orderdetails({orderId: order.id})">{{ order.id }}</a></td>
             <td ng-bind="order.description"></td>
         </tr>
     </tbody>

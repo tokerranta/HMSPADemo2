@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace HMSPADemo2.Application.Orders
 {
-    public interface IOrderService
+    public class OrderDetailsModel
     {
-        IEnumerable<OrderModel> GetAll();
-        OrderDetailsModel GetById(int id);
+        public int Id { get; set; }
+        public string Description { get; set; }
+        public decimal TotalCost { get; set; }
     }
 }

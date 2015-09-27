@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Orders\IOrderService.cs" />
+    <Compile Include="Orders\OrderDetailsModel.cs" />
     <Compile Include="Orders\OrderModel.cs" />
     <Compile Include="Orders\OrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
